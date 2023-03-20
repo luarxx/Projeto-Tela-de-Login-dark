@@ -90,9 +90,23 @@ body {
    letter-spacing: 2px;
 }
 
+.login #check {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    width: 20px;
+}
+
+.login #checkbox {
+    margin-bottom: 0px;
+    width: fit-content;
+    position: relative;
+    bottom: 33px;
+    left: 22px;
+}
+
 .login button {
     padding: 10px;
-    margin-top: 5px;
     border: none;
     border-radius: 8px;
     background: #00C571;
