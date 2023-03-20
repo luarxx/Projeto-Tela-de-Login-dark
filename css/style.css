@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #211B30;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.row h1 {
+    font-size: 2rem;
+    color: #76EFD2;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.container-login {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 60%;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    background: #302644;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.login h2 {
+    font-size: 1.5rem;
+    color: #00C571;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login label {
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.login input {
+    padding: 10px;
+    color: white;
+    border: solid 1px #8d5151;
+    border-color: #0a0606;
+    border-radius: 8px;
+    background: #4F426B;
+    outline-style: solid 1px #1a1717;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.1);
+}
+
+.login input[type="password"] {
+   letter-spacing: 2px;
+}
+
+.login button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #00C571;
+    font-size: 12px;
+    font-weight: 800;
+    color: #211B30;
+    cursor: pointer;
+    box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 40%;
+    height: fit-content;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 15%;
+    left: 40px;
+    bottom: 0px;
+}
