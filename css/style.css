@@ -17,6 +17,8 @@ body {
     padding-right: 25px;
 }
 
+/* Cabeçalho */
+
 .row {
     width: 50%;
     display: flex;
@@ -24,18 +26,21 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    top: 120px;
+    top: 110px;
     left: 100px;
+
 }
 
 .row h1 {
     font-size: 2rem;
     color: #76EFD2;
     font-weight: 600;
-    margin-bottom: 80px;
+    text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
 }
 
-.container-login {
+/* Painel de login */
+
+.container-login { 
     position: absolute;
     display: flex;
     top: 30%;
@@ -123,7 +128,7 @@ img {
     object-fit: cover;
     z-index: -1;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 40px;
     bottom: 0px;
 }
