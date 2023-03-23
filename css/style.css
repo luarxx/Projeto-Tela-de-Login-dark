@@ -91,7 +91,7 @@ body {
 }
 
 .login input[type="password"] {
-   letter-spacing: 2px;
+   letter-spacing: 1px;
 }
 
 .login #check {
@@ -193,8 +193,8 @@ img {
         width: 95%;
         margin: auto;
         top: 30%;
-        left: 3%;
-        background-color: #302644c9 ;
+        left: 1.3vh;
+        background-color:  #302644c9 ;
     }
 
     .row {
@@ -217,7 +217,7 @@ img {
     #container-login {
         width: 95%;
         margin: auto;
-        left: 1.4vh;
+        left: 1vh;
         
         background-color: #302644c9 ;
     }
